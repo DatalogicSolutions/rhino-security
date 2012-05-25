@@ -82,6 +82,8 @@
     <Compile Include="Impl\Guard.cs" />
     <Compile Include="Impl\MappingRewriting\SchemaChanger.cs" />
     <Compile Include="Impl\MappingRewriting\UserMapper.cs" />
+    <Compile Include="Interfaces\IAuthorizationRepositoryDLS.cs" />
+    <Compile Include="Services\AuthorizationRepositoryDLS.cs" />
     <Compile Include="Services\SecurityCriterions.cs" />
     <Compile Include="Services\AuthorizationRepository.cs" />
     <Compile Include="AuthorizationInformation.cs" />

@@ -14,7 +14,7 @@ namespace Rhino.Security.Services
 	/// Allows to edit the security information of the 
 	/// system
 	/// </summary>
-	public class AuthorizationRepository : IAuthorizationRepository
+	public partial class AuthorizationRepository : IAuthorizationRepository
 	{
 	    private readonly ISession session;
 

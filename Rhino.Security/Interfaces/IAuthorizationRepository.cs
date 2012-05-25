@@ -6,7 +6,7 @@ namespace Rhino.Security.Interfaces
 	/// Allows to edit the security information of the 
 	/// system
 	/// </summary>
-	public interface IAuthorizationRepository
+	public partial interface IAuthorizationRepository
 	{
 		/// <summary>
 		/// Creates a new users group.
