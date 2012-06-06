@@ -115,7 +115,7 @@ namespace Rhino.Security
 			cfg.AddAssembly(typeof (IUser).Assembly);
 			new SchemaChanger(cfg, securityTableStructure).Change();
 			new UserMapper(cfg, typeof(TUserType)).Map();
-			cfg.SetListener(ListenerType.PreDelete, new DeleteEntityEventListener());
+			//cfg.SetListener(ListenerType.PreDelete, new DeleteEntityEventListener());
 		}
 	}
 }
